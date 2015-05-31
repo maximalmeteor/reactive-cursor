@@ -1,8 +1,8 @@
 Package.describe({
-  name: 'maximal:reactive-cursors',
+  name: 'maximum:reactive-cursors',
   version: '0.1.0',
   summary: 'Meteor package that provides reactive cursors on the server',
-  git: 'https://github.com/maximalmeteor/reactive-cursors',
+  git: 'https://github.com/maximummeteor/reactive-cursors',
   documentation: 'README.md'
 });
 
@@ -24,7 +24,7 @@ Package.onTest(function(api) {
   api.use([
     'tinytest',
     'coffeescript',
-    'maximal:reactive-cursors'
+    'maximum:reactive-cursors'
   ]);
   api.addFiles('tests/reactive-cursors.coffee');
 });
