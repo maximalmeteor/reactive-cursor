@@ -7,6 +7,4 @@ Meteor package that provides reactive cursors on the server
     meteor add maximal:reactive-cursors
 ```
 
-## Usage
-
-...
+Add `reactive: true` to your cursor options, to make a cursor reactive on the server
